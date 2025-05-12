@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
                 } else {
                     Toast.makeText(
                         this@MainActivity,
-                        "Ошибка: $message",
+                        "$message",
                         Toast.LENGTH_LONG
                     ).show()
                 }
