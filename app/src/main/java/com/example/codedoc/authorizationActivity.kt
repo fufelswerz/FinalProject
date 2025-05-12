@@ -46,7 +46,7 @@ class authorizationActivity : AppCompatActivity() {
                 } else {
                     Toast.makeText(
                         this@authorizationActivity,
-                        "Ошибка: $message",
+                        "$message",
                         Toast.LENGTH_LONG
                     ).show()
 
